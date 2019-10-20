@@ -20,5 +20,7 @@ git fetch - to pull files but merge manually
 or
 git pull - to pull files and merge automatically
 
+git checkout master (or branch name) - This command allows you to move between branches
+
 
 
