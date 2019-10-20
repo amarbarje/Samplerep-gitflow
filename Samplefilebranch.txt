@@ -1,0 +1,24 @@
+This is a sample file created in Feature branch not the master branch.
+The flow would be-
+Create a repository in github samplerep
+git clone "clone url" to create github rep locally
+git checkout -b samplebranch
+add a file locally to Samplerep repository
+cd samplebranch -- Navigate to Samplebranch
+git status
+git add . - File is now staged in sample branch
+git commit -m "first commit on sample branch"
+git push -u origin Samplebranch - creates a branch in github with name Samplebranch
+New pull Request>Create pull request button on Github
+Check the direction of Master and Sample branch
+Add comments and review. Pull requests pull the changes from Samplebranch to Master branch
+Click confirm merge to merge changes to 'Master'
+Come back to Local repository on desktop
+cd Samplerep (master)
+To switch between branches - git checkout branchname
+git fetch - to pull files but merge manually
+or
+git pull - to pull files and merge automatically
+
+
+
